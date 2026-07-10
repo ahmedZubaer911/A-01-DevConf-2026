@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+.logo{
+    font-size: 20px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.nav-links a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #575757;
+}
+.nav-links a:hover{
+    color:#7b7b7b;
+}
+.register-btn{
+    text-decoration: none;
+    background-color: #1d4ed8;
+    color: #ffffff;
+    height: 48px;
+    width: 188px;
+    border: 4px;
+    border-radius: 10px;
+    padding: 12px 41.5px;
+    font-weight: bold;
+}
+.register-btn:hover{
+    background: #3862d5;
+}
