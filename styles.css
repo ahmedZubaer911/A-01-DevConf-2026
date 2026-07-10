@@ -5,7 +5,12 @@
 body{
     font-family: "Inter", sans-serif;
 }
-.navbar{
+/* nav section */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.navbar .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,7 +42,56 @@ body{
     border-radius: 10px;
     padding: 12px 41.5px;
     font-weight: bold;
+    cursor: pointer;
 }
 .register-btn:hover{
     background: #3862d5;
+}
+
+/* hero section */
+.hero{
+    height: 100vh;
+    background-image: url("./images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-content{
+    max-width: 950px;
+    color: white;
+    padding: 20px;
+}
+.hero-content h1{
+    font-size: 80px;
+    font-weight: 700px;
+    margin-bottom: 31px;
+}
+.hero-content p{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.hero-content button{
+    margin-top: 280px;
+}
+.hero-content .hero-btn{
+    text-decoration: none;
+    background-color: #1d4ed8;
+    color: white;
+    height: 74px;
+    width: 282px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 12px;
+}
+.hero-content .hero-btn:hover{
+    background: #3359bf;
 }
