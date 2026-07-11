@@ -1,0 +1,1 @@
+Create a modern HTML and CSS "Job Board & Career Hub" section for a developer conference website called "DevConf2026". Include a section heading, an introduction, 3/4 cards with unique roles, career benefits and an actionable button using professional design.

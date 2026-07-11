@@ -296,3 +296,132 @@ body {
 .highlighted-pricing-card .pricing-btn:hover{
     background-color: #2051b9;
 }
+
+
+/* Career Hub Section */
+.career-hub-title{
+    text-align: center;
+    font-size: 48px;
+    color: #0d1b2a;
+    margin-bottom: 12px;
+}
+.career-hub{
+    padding:50px 0;
+    background:#f8fafc;
+    text-align:center;
+}
+
+.career-intro{
+    max-width:800px;
+    margin:20px auto 40px;
+    color:#555;
+    line-height:1.8;
+}
+
+.career-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+    margin-bottom:50px;
+}
+
+.career-card{
+    padding:30px 20px;
+    border-radius:12px;
+    border: 1px solid #e9edf1;
+}
+
+.career-card:hover{
+    background-color: #e9edf1;
+}
+
+.career-card h3{
+    margin-bottom:15px;
+}
+
+.role{
+    font-weight:600;
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.career-card ul{
+    list-style:none;
+    margin-bottom:15px;
+}
+
+.career-card ul li{
+    margin-bottom:8px;
+}
+
+.focus{
+    color:#888888;
+    font-size:14px;
+}
+
+.career-btn{
+    text-decoration:none;
+    background:#2563eb;
+    color:white;
+    padding:14px 30px;
+    border-radius:8px;
+    font-weight:600;
+}
+
+.career-btn:hover{
+    background:#1d4ed8;
+}
+
+/* footer section */
+.footer{
+    background:#111827;
+    color:#888888;
+    padding:30px 0 25px;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.footer-logo img{
+    height:50px;
+    padding-left: 90px;
+}
+
+.social-media-links{
+    display:flex;
+    gap:25px;
+    padding-right: 90px;
+    cursor: pointer;
+}
+
+.social-media-links:hover{
+    color:#60a5fa;
+}
+
+.footer hr{
+    border:none;
+    height:1px;
+    background:rgba(255,255,255,0.2);
+    margin-bottom:25px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-bottom .copyright{
+    font-size: 16px;
+    font-weight: 400px;
+    padding-left: 90px;
+}
+.footer-bottom ul{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    padding-right: 90px;
+}
