@@ -92,8 +92,8 @@ body {
     margin-bottom: 30px;
 }
 
-.hero-content button {
-    margin-top: 280px;
+.hero-content .hero-btn {
+    margin-top: 20px;
 }
 
 .hero-content .hero-btn {
@@ -127,8 +127,6 @@ body {
     grid-template-columns: repeat(2, 1fr);
     padding-top: 56px;
     gap: 32px;
-    /* height: 644px;
-    width: 460px; */
 }
 
 .speaker-card {
@@ -138,7 +136,7 @@ body {
 }
 
 .speaker-card:hover {
-    background: #f8e9e9;
+    background: #f3f8fc;
 }
 
 .speaker-card img {
@@ -151,7 +149,7 @@ body {
     margin: 24px 24px 8px 24px;
     color: #2563eb;
     font-size: 12px;
-    font-weight: 600px;
+    font-weight: 600;
 }
 
 .speaker-card h3 {
@@ -162,7 +160,7 @@ body {
 .designation {
     margin: 20px 2px 35px 24px;
     font-size: 14px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 1.5px;
 }
 
@@ -199,17 +197,20 @@ body {
     flex-direction: column;
 }
 
+.pricing-card:hover {
+    background-color: #e0f2fe;
+}
+
 .pricing-card p {
     color: #888888;
     font-size: 13px;
-    font-weight: 600px;
+    font-weight: 600;
 }
 
 .pricing-card .price {
     font-size: 44px;
-    font-weight: 700px;
+    font-weight: 700;
     padding-top: 8px;
-    /* padding-bottom: 4px; */
     color: #0d1b2a;
 }
 
@@ -243,12 +244,12 @@ body {
     justify-content: center;
 
     font-size: 14px;
-    font-weight: 600px;
+    font-weight: 600;
     color: #2563eb;
 }
 
 .pricing-btn:hover {
-    background-color: #dde4f4;
+    background-color: #c6e4f8;
 }
 
 .highlighted-pricing-card {
@@ -261,22 +262,26 @@ body {
     flex-direction: column;
 }
 
+.highlighted-pricing-card:hover {
+    background-color: #1e293b;
+}
+
 .highlighted-pricing-card p {
     font-size: 13px;
-    font-weight: 600px;
+    font-weight: 600;
     color: #93c5fd;
 }
 
 .highlighted-pricing-card .price {
     padding-top: 8px;
     font-size: 44px;
-    font-weight: 700px;
+    font-weight: 700;
     color: white;
 }
 
 .highlighted-pricing-card .subtitle {
     padding-top: 100px;
-    font-weight: 400px;
+    font-weight: 400;
     color: #888888;
 }
 
@@ -286,142 +291,153 @@ body {
     border: none;
     margin: 20px 0;
 }
+
 .highlighted-pricing-card ul li::marker {
     color: #2563eb;
 }
-.highlighted-pricing-card .pricing-btn{
+
+.highlighted-pricing-card .pricing-btn {
     background: #2563eb;
     color: white;
 }
-.highlighted-pricing-card .pricing-btn:hover{
+
+.highlighted-pricing-card .pricing-btn:hover {
     background-color: #2051b9;
 }
 
 
 /* Career Hub Section */
-.career-hub-title{
+.career-hub-title {
     text-align: center;
     font-size: 48px;
     color: #0d1b2a;
     margin-bottom: 12px;
 }
-.career-hub{
-    padding:50px 0;
-    background:#f8fafc;
-    text-align:center;
+
+.career-hub {
+    padding: 50px 0;
+    background: #f8fafc;
+    text-align: center;
 }
 
-.career-intro{
-    max-width:800px;
-    margin:20px auto 40px;
-    color:#555;
-    line-height:1.8;
+.career-intro {
+    max-width: 800px;
+    margin: 20px auto 40px;
+    color: #555;
+    line-height: 1.8;
 }
 
-.career-grid{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:20px;
-    margin-bottom:50px;
+.career-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 50px;
 }
 
-.career-card{
-    padding:30px 20px;
-    border-radius:12px;
+.career-card {
+    padding: 30px 20px;
+    border-radius: 12px;
     border: 1px solid #e9edf1;
 }
 
-.career-card:hover{
+.career-card:hover {
     background-color: #e9edf1;
 }
 
-.career-card h3{
-    margin-bottom:15px;
+.career-card h3 {
+    margin-bottom: 15px;
 }
 
-.role{
-    font-weight:600;
-    color:#2563eb;
-    margin-bottom:10px;
+.role {
+    font-weight: 600;
+    color: #2563eb;
+    margin-bottom: 10px;
 }
 
-.career-card ul{
-    list-style:none;
-    margin-bottom:15px;
+.career-card ul {
+    list-style: none;
+    margin-bottom: 15px;
 }
 
-.career-card ul li{
-    margin-bottom:8px;
+.career-card ul li {
+    margin-bottom: 8px;
 }
 
-.focus{
-    color:#888888;
-    font-size:14px;
+.focus {
+    color: #888888;
+    font-size: 14px;
 }
 
-.career-btn{
-    text-decoration:none;
-    background:#2563eb;
-    color:white;
-    padding:14px 30px;
-    border-radius:8px;
-    font-weight:600;
+.career-btn {
+    text-decoration: none;
+    background: #2563eb;
+    color: white;
+    padding: 14px 30px;
+    border-radius: 8px;
+    font-weight: 600;
 }
 
-.career-btn:hover{
-    background:#1d4ed8;
+.career-btn:hover {
+    background: #1d4ed8;
 }
 
 /* footer section */
-.footer{
-    background:#111827;
-    color:#888888;
-    padding:30px 0 25px;
+.footer {
+    background: #111827;
+    color: #888888;
+    padding: 30px 0 25px;
 }
 
-.footer-top{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    margin-bottom:25px;
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
 }
 
-.footer-logo img{
-    height:50px;
+.footer-logo img {
+    height: 50px;
     padding-left: 90px;
 }
 
-.social-media-links{
-    display:flex;
-    gap:25px;
+.social-media-links {
+    display: flex;
+    gap: 25px;
     padding-right: 90px;
     cursor: pointer;
 }
 
-.social-media-links:hover{
-    color:#60a5fa;
+.social-media-links i:hover {
+    color: #60a5fa;
 }
 
-.footer hr{
-    border:none;
-    height:1px;
-    background:rgba(255,255,255,0.2);
-    margin-bottom:25px;
+.footer hr {
+    border: none;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    margin-bottom: 25px;
 }
 
-.footer-bottom{
+.footer-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.footer-bottom .copyright{
+
+.footer-bottom .copyright {
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     padding-left: 90px;
 }
-.footer-bottom ul{
+
+.footer-bottom ul {
     list-style: none;
     display: flex;
     gap: 24px;
-    padding-right: 90px;
+    padding-right: 90px
+}
+
+.footer-bottom ul li a {
+    text-decoration: none;
+    color: #888888;
 }
