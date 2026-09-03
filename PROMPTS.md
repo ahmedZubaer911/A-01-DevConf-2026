@@ -4,7 +4,7 @@ A modern and responsive landing page for **DevConf 2026**, a developer conferenc
 
 ## 🌐 Live Demo
 
-**Live Demo:** Coming Soon
+**Live Demo:** [Live Demo]https://ahmedzubaer911.github.io/A-01-DevConf-2026/
 
 > The project will be deployed after completing the GitHub Pages setup.
 
@@ -191,7 +191,7 @@ Through this project, I practiced:
 ## 🔗 Links
 
 * **Repository:** [A-01-DevConf-2026](https://github.com/ahmedZubaer911/A-01-DevConf-2026)
-* **Live Demo:** Coming Soon
+* **Live Demo:** [Demo](https://ahmedzubaer911.github.io/A-01-DevConf-2026/)
 
 ## 👨‍💻 Author
 
